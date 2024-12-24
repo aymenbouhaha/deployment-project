@@ -1,5 +1,8 @@
 name: Test and Build Docker Image
 
+permissions:
+  contents: write
+
 on:
   push:
 
