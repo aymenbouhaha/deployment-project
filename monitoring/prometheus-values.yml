@@ -1,0 +1,6 @@
+server:
+  additionalScrapeConfigs:
+    - job_name: 'todo-app-statics'
+      static_configs:
+        - targets: ['todo-app-internal-service.todo-app.svc.cluster.local:3000']
+
