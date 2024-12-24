@@ -46,7 +46,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/todo-app:${{ github.run_id }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/deployment-project:${{ github.run_id }}
 
   update_k8s_deployment:
     name: Update Kubernetes Deployment YAML
