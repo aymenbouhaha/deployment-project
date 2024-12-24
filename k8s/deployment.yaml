@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: todo-app
-          image: aymenbouhaha/deployment-project:12478289273
+          image: aymenbouhaha/deployment-project:12478661763
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
